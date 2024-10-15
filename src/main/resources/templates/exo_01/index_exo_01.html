@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>exercice 01</title>
+</head>
+<body>
+    <h1>Command de <span th:text="${prenom}"></span> <span th:text =" ${nom}"></span> : </h1>
+
+    <ul>
+        <li>Entrée : <span th:text="${starter}">Starter</span></li>
+        <li>Plat principal : <span th:text="${maincourse}">Plat</span></li>
+        <li>Dessert : <span th:text="${desert}">Dessert</span></li>
+        <li>Boisson : <span th:text="${drink}">Boisson</span></li>
+    </ul>
+</body>
+</html>
